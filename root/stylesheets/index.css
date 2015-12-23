@@ -6,6 +6,10 @@ body {
     background-color: transparent;
 }
 
+section {
+    margin-bottom: 40px;
+}
+
 .jumbotron {
     position: relative;
     background: #c29719;
@@ -67,5 +71,24 @@ nav {
 }
 
 .about-me {
+    position: relative;
     background-color: #CCC7B7;
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    overflow: hidden;
+    padding: 25px 0;
+}
+
+.about-me img {
+    margin: 25px 0;
+    height: 90px;
+    border-radius: 40%;
+}
+
+.about-me p {
+    font-size: 1.2em;
+}
+
+.skills {
+    background-color: #07B2F5;
 }
