@@ -89,6 +89,19 @@ nav {
     font-size: 1.2em;
 }
 
+.about-me .col-md-4 {
+    background-color: rgba(220, 220, 220, .85);
+    border-radius: 10px;
+    padding: 10px;
+}
+
 .skills {
     background-color: #07B2F5;
+}
+
+.skill-dashboard {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .15);
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
