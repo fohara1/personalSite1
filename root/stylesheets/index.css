@@ -38,7 +38,7 @@ section {
 
 .j-left img {
     width: 100%;
-    
+
 }
 
 .j-right {
@@ -63,7 +63,7 @@ section {
 nav li {
     list-style-type: none;
     display: inline;
-    margin: 0 20px;
+    padding: 0 20px;
 }
 nav {
     text-align: center;
@@ -72,8 +72,8 @@ nav {
 
 .about-me {
     position: relative;
-    background-color: #CCC7B7;
-    background-image: url(../img/about.jpg);
+    background-color: #DCDCDC;
+    /*background-image: url(http://placehold.it/1700x700);*/
     background-size: cover;
     overflow: hidden;
     padding: 25px 0;
@@ -95,7 +95,7 @@ nav {
     padding: 10px;
 }
 
-.skills {
+.skills, .education {
     background-color: #07B2F5;
 }
 
@@ -104,4 +104,8 @@ nav {
     background-color: rgba(0, 0, 0, .15);
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+.summary {
+    padding-left: 60px;
 }
