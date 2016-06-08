@@ -95,8 +95,9 @@ nav {
     padding: 10px;
 }
 
-.skills, .education {
+.skills, .education, .experience {
     background-color: #07B2F5;
+    padding-bottom: 15px
 }
 
 .skill-dashboard {
@@ -108,4 +109,9 @@ nav {
 
 .summary {
     padding-left: 60px;
+}
+
+.school-logo img, .work-logo img {
+    max-width: 181px;
+    width: 100%;
 }
